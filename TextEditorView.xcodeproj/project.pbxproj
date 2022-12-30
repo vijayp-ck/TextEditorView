@@ -17,6 +17,9 @@
 		88520E37295EE07100041014 /* SoulverCore in Frameworks */ = {isa = PBXBuildFile; productRef = 88520E36295EE07100041014 /* SoulverCore */; };
 		88520E3A295EE09000041014 /* Shout in Frameworks */ = {isa = PBXBuildFile; productRef = 88520E39295EE09000041014 /* Shout */; };
 		88520E3D295EE0A600041014 /* Git in Frameworks */ = {isa = PBXBuildFile; productRef = 88520E3C295EE0A600041014 /* Git */; };
+		88520E41295EE14500041014 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 88520E3F295EE14500041014 /* Localizable.strings */; };
+		88520E42295EE14500041014 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 88520E40295EE14500041014 /* InfoPlist.strings */; };
+		88520E44295EE15A00041014 /* Icons.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88520E43295EE15A00041014 /* Icons.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +33,9 @@
 		88520D88295EAE1A00041014 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88520D8B295EAE1A00041014 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88520D8D295EAE1A00041014 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88520E3F295EE14500041014 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		88520E40295EE14500041014 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
+		88520E43295EE15A00041014 /* Icons.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Icons.xcassets; sourceTree = "<group>"; };
 		D91D2326805745E1640519B7 /* Pods-TextEditorView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TextEditorView.release.xcconfig"; path = "Target Support Files/Pods-TextEditorView/Pods-TextEditorView.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,6 +83,7 @@
 		88520D7E295EAE1700041014 /* TextEditorView */ = {
 			isa = PBXGroup;
 			children = (
+				88520E3E295EE13400041014 /* FSNotes */,
 				88520D7F295EAE1700041014 /* AppDelegate.swift */,
 				88520D81295EAE1700041014 /* SceneDelegate.swift */,
 				88520D83295EAE1700041014 /* ViewController.swift */,
@@ -86,6 +93,16 @@
 				88520D8D295EAE1A00041014 /* Info.plist */,
 			);
 			path = TextEditorView;
+			sourceTree = "<group>";
+		};
+		88520E3E295EE13400041014 /* FSNotes */ = {
+			isa = PBXGroup;
+			children = (
+				88520E40295EE14500041014 /* InfoPlist.strings */,
+				88520E3F295EE14500041014 /* Localizable.strings */,
+				88520E43295EE15A00041014 /* Icons.xcassets */,
+			);
+			path = FSNotes;
 			sourceTree = "<group>";
 		};
 		8C870D5EF658346DAC542443 /* Pods */ = {
@@ -168,8 +185,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				88520D8C295EAE1A00041014 /* LaunchScreen.storyboard in Resources */,
+				88520E41295EE14500041014 /* Localizable.strings in Resources */,
 				88520D89295EAE1A00041014 /* Assets.xcassets in Resources */,
 				88520D87295EAE1700041014 /* Main.storyboard in Resources */,
+				88520E44295EE15A00041014 /* Icons.xcassets in Resources */,
+				88520E42295EE14500041014 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
